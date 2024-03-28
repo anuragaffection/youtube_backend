@@ -12,7 +12,7 @@
 1. [Technologies Used](#technologies-used)
 2. [Installation ](#installation)
 3. [Features](#features)
-4. [Routes]  (#routes)
+4. [Routes](#routes)
 5. [Folder Structure](#folder-structure)
 6. [Acknowledgement](#acknowledgments)
 7. [Project History](#project-history)
