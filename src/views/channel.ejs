@@ -52,13 +52,13 @@
             <% if (locals.channelsToSubscribe) { %>
                 <div class="flex flex-wrap gap-8 ">
                     <% channelsToSubscribe.forEach(element=> { %>
-                        <div onclick="subscribeToChannel('<%= channelDetails._id %>','<%= element._id %>')"
+                        <div
                             class="py-4 px-6 flex flex-col gap-4 bg-gray-950 hover:bg-black rounded-lg">
                             <div
                                 class="px-4 py-2 bg-gradient-to-r from-lime-600 to-amber-600 text-gray-950 text-lg text-center font-semibold rounded-lg w-full">
                                 <%= element.channelName %>
                             </div>
-                            <button type="text"
+                            <button type="text" onclick="subscribeToChannel('<%= channelDetails._id %>','<%= element._id %>')"
                                 class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Subscribe</button>
                         </div>
                         <% }) %>
