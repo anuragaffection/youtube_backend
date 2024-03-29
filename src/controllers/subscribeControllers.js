@@ -45,7 +45,9 @@ async function getAllNames(req, res) {
         res.status(200).json(allNames);
     } catch (error) {
         console.error('Error fetching channel names:', error);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({
+            error: 'Internal Server Error'
+        });
     }
 }
 
