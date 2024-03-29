@@ -13,7 +13,7 @@
     "Youtube Backend",
     "backend project"
   ],
-  "author": "Anurag Affection, Shanu Sarkar, Abhishek Chaturvedi, Shekar Suman",
+  "author": "Anurag Affection",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
