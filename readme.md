@@ -2,10 +2,11 @@
 
 ## Description
 
-
+This project serves as the backend for a YouTube-like platform, providing APIs for managing channels like adding, deleting, updating, subscribers, and subscriptions of a channel.
 
 ## Live
-- It is deployed on vercel [Live Link]().
+- It is deployed on Vercel [Live Link](https://youtube-backend-anurag.vercel.app/).
+- https://youtube-backend-anurag.vercel.app/
 
 ## Table of Contents
 
@@ -20,34 +21,39 @@
 9. [License](#license)
 
 ## Technologies Used
-- Node js 
-- Express js
-- ejs 
-- mongoose 
+- Node.js 
+- Express.js
+- EJS 
+- Mongoose 
 - MongoDB
-- Html 
+- HTML 
 - CSS 
 - Tailwind CSS 
-- Javascript 
+- JavaScript 
 
 ## Installation
 
 1. Clone the repository.
-2. Navigate to the folder and run `npm install` to install frontend dependencies.
-3. Run `node index.js` in the frontend folder to start the frontend application.
+2. Navigate to the folder and run `npm install` to install backend dependencies.
+3. Run `node index.js` to start the backend server.
 
 ## Features
-- 
+- Lots of youtube backend api 
+- A simple user interface for visualization 
+- Free to use any api 
 
 ## Routes
 
 | SN | Route | Method | Details |
 |----|-------|--------|---------|
-| 1  | [/yt/all](/yt/all) | GET | get all channels |
-| 2  | [/yt/:channelId/subscribers](/yt/:channelId/subscribers) | GET | all subscribers of a channel |
-| 3  | [/yt/:channelId/subscriptions](/yt/:channelId/subscriptions) | GET | all subscriptions of a channel |
-| 4  | /yt/:channelId/subscribe | POST | to subscribe a channel |
-| 5  | /yt/addChannel | POST | to add new channel |
+| 1  | [/yt/all](https://youtube-backend-anurag.vercel.app/yt/all) | GET | Get all channels |
+| 2  | [/yt/names](https://youtube-backend-anurag.vercel.app/yt/names) | GET | Get all channel names |
+| 3  | [/yt/:channelId/subscribers](https://youtube-backend-anurag.vercel.app/yt/:channelId/subscribers) | GET | Get all subscribers of a channel |
+| 4  | [/yt/:channelId/subscriptions](https://youtube-backend-anurag.vercel.app/yt/:channelId/subscriptions) | GET | Get all subscriptions of a channel |
+| 5  | /yt/:channelId/subscribe | POST | Subscribe to a channel |
+| 6  | /yt/addChannel | POST | Add a new channel |
+| 7  | /channelId/delete | DELETE | Delete a channel |
+| 8  | /channelId/update | PUT | Update a channel |
 
 ## Folder Structure
 
@@ -67,10 +73,10 @@
 
 ## Acknowledgments
 
-- [ejs]()
-- [tailwind css](/)
-- [express js](/)
-- [mongoose]()
+- [EJS](https://ejs.co/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Express.js](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
 - Google
 
 ## Project History
@@ -81,8 +87,8 @@
 
 ## Contributors
 
-- [ Anurag Affection ](https://github.com/anuragaffection)
-- You are welcome to contribute here !
+- [Anurag Affection](https://github.com/anuragaffection)
+- You are welcome to contribute here!
 
 ## License
 
